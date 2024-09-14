@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("images/background.png");
+  background-position: center;
+  background-size: cover;
+  padding: 0 7%;
+  color: #ffffff;
+}
+
+nav {
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 50px;
+  cursor: pointer;
+  margin-right: 50px;
+}
+nav ul {
+  flex: 1;
+}
+nav ul li {
+  display: inline-block;
+  margin: 10px 20px;
+  cursor: pointer;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  list-style: none;
+}
+
+nav .btn {
+  text-decoration: none;
+  color: #ffffff;
+  list-style: none;
+  padding: 5px 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+nav .btn:hover {
+  color: #0f002b;
+  background-color: #ffffff;
+}
+
+.content {
+  margin-top: 3%;
+}
+
+.content h1 {
+  font-size: 88px;
+  margin-bottom: 13px;
+}
+
+.content h1 span {
+  color: #ff960b;
+}
+.content p {
+  margin-bottom: 5px;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.content .btn {
+  display: inline-block;
+  text-decoration: none;
+  list-style: none;
+  color: #ff960b;
+  padding: 10px 40px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: white;
+  font-weight: bold;
+}
+
+.content .btn:hover {
+  color: white;
+  background-color: #ff960b;
+  border: 1px solid #ff960b;
+}
+
+.coinList {
+  width: 100%;
+  position: absolute;
+  bottom: 50px;
+  display: flex;
+  align-items: center;
+  gap: 310px;
+}
+
+.coin {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin: 0 15px;
+  color: #ff960b;
+  border: 1px solid white;
+  padding: 20px 30px;
+  border-radius: 5px;
+}
+
+.coin img {
+  width: 40px;
+  margin-right: 20px;
+}
+
+.coin h3 {
+  color: #ffffff;
+  margin-bottom: 5px;
+}
